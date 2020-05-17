@@ -3,6 +3,7 @@ module.exports = {
     title: `RSC blog`,
     description: `This is my new blog! Learning.....`,
     author: `@gatsbyjs`,
+    siteUrl: "https://hardcore-colden-c8bee4.netlify.app",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +37,8 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
